@@ -1,0 +1,82 @@
+\documentclass{article}
+% memoir - use option titlepage to get the title on a page of its own.
+\usepackage{pgf,tikz} % Пакет для работы с графикой
+%\usepackage{pgfplots}
+%\pgfplotsset{compat=1.9}
+\usetikzlibrary{arrows}
+\usepackage{geometry} % Пакет для работы с геометрией листа
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=20mm,
+ }
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel} % Пакет для работы с русским языком
+% модуль для работы с фотографиями и изображениями
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{amsmath}
+% отступ для первого абзаца главы или параграфа
+\usepackage{indentfirst}
+% модуль для вставки рыбы
+\usepackage{blindtext}
+\usepackage{verbatim}
+% создание предметного указателя
+\usepackage{makeidx}
+\makeindex
+
+\usetikzlibrary{er}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% цвета для гиперссылок
+\definecolor{linkcolor}{rgb}{0,0,1} % цвет ссылок
+\definecolor{urlcolor}{rgb}{0,0,1} % цвет гиперссылок
+
+\hypersetup{linkcolor=linkcolor, urlcolor=urlcolor, colorlinks=true}
+
+\usepackage{natbib}  % Пакет для работы со списком цитирования
+\usepackage{tocbibind}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+%\fancypagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{Семенов А.В. редакция \today}
+\cfoot{}
+%\rfoot{Страница \thepage}
+
+%\begin{document}
+\definecolor{uuuuuu}{rgb}{0.27,0.27,0.27}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{cqcqcq}{rgb}{0.75,0.75,0.75}
+
+\title{Синко \\(Cinco)}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\section*{The Past Continuous Tense (Прошедшее продолженное время)}
+\section{Введение}
+
+\section{Употребление}
+Это время употребляется, когда говорящий рассказывает о действии как о неоконченном процессе, продолжавшемся в определенный момент или отрезок времени в прошлом. Этот момент может быть указан(точное время) или понятен из контекста. На русский язык глагол в Past Continuous всегда переводиться глаголом прошедшего времени несовершенного вида.
+
+\section{Образование}
+Утвердительная форма
+
+He was looking for you. | Он вас искал.
+
+Отрицательная форма
+
+Вопросительная форма
+
+\end{document}
